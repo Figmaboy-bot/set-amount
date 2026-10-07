@@ -242,7 +242,7 @@ export default function SetAmount() {
   return (
     <div className="flex items-center justify-center w-screen h-screen bg-[#f2f2f2]">
       {/* Card */}
-      <div className="bg-white rounded-[100px] px-[100px] py-[200px] flex flex-col gap-[10px] items-start overflow-hidden">
+      <div className="bg-white rounded-[64px] px-[56px] py-[80px] flex flex-col gap-[10px] items-start overflow-hidden">
         <div className="flex flex-col gap-8 items-center w-[494px]">
 
           {/* Title */}
