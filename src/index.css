@@ -7,20 +7,3 @@
   margin: 0;
   padding: 0;
 }
-
-@keyframes exitUp {
-  from { transform: translateY(0);     opacity: 1; }
-  to   { transform: translateY(-130%); opacity: 0; }
-}
-@keyframes exitDown {
-  from { transform: translateY(0);    opacity: 1; }
-  to   { transform: translateY(130%); opacity: 0; }
-}
-@keyframes enterFromBottom {
-  from { transform: translateY(130%); opacity: 0; }
-  to   { transform: translateY(0);    opacity: 1; }
-}
-@keyframes enterFromTop {
-  from { transform: translateY(-130%); opacity: 0; }
-  to   { transform: translateY(0);     opacity: 1; }
-}
